@@ -2,13 +2,16 @@
 title: "Hw01_building_models"
 author: "Coltan Scrivner"
 date: "1/9/2019"
-output: html_document
+output:
+  pdf_document: default
+  html_document: default
 ---
 
 
-# Building Models
+# Building Models  
 
-## Theories of deviant aggressive behavior
+
+### Theories of deviant aggressive behavior
 
 **Theory I:** Deviant aggressive behavior is learned from experience. Individuals in a society learn to do those things for which they receive rewards and to avoid those things for which they receive punishment.
 
@@ -20,9 +23,9 @@ output: html_document
 
 
 
-## Questions
+### Questions
 
-### Question 1) What social policy would be appropriate to reduce deviant aggressive behavior if Theory I were correct? Theory II? Theory III? Theory IV?
+#### Question 1) What social policy would be appropriate to reduce deviant aggressive behavior if Theory I were correct? Theory II? Theory III? Theory IV?
 
 **Theory I:**
 Assumption 1: Individuals learn to do things for which they receive a reward
@@ -60,7 +63,7 @@ Consequence: People who associate with deviant subculture become socialized into
 This theory really only offers one point of intervention - contact with deviant subculture. One possible social policy would be to try to eliminate or reduce the influence deviant subculture. This could be done through legal means (e.g., banning key aspects of deviant subculture and increasing attention to areas where deviant subculture is high). However, this might backfire and make the deviant subculture larger and/or more extreme. Another possible social policy could be to offer alternatives to deviant subculture. For example, if a research group studied the most common reasons that people came into contact with deviant subculture, then programs could be established that compete with those reasons. If one reason people come into contact with deviant subculture is lack of extracurricular activities (i.e., out of boredom), then social policy could be aimed at after-school programs or weekend programs that provide a way for people to find new hobbies and associate with people not associated with a deviant subculture.  
 
 
-### Question 2) During the past ten years, American society has been running a series of “experiments” with deviant aggressive behavior. Take any one of these experiments (e.g. #MeToo, mass shootings, political rhetoric) and discuss what we have learned about the four theories from this series of experiments.
+#### Question 2) During the past ten years, American society has been running a series of “experiments” with deviant aggressive behavior. Take any one of these experiments (e.g. #MeToo, mass shootings, political rhetoric) and discuss what we have learned about the four theories from this series of experiments.
 
 
 The MeToo movement is perhaps one of the strongest social media social movements to occur. While there have been similar social movements, none of them that began and spread on social media has had quite the impact of MeToo. Targeting a specific type of deviant aggression, namely, sexual harassment and assault, MeToo has had enough social power to bring down some of the most powerful celebrities of our time. What was once spread as gossip and in whispers can now be spread to millions of people in a matter of minutes through social media, particularly through centralizing formats such as hashtags. Because of its combination of being powered by social networks and combatting a well-known form of deviant aggression, MeToo provides an excellent test of the four theories mentioned above.
@@ -75,7 +78,7 @@ Taken together, the the case of MeToo seems to support Theory I to the greatest 
 
 
 
-## Waiting until the last minute  
+### Waiting until the last minute  
 
 People often do things at the last minute (students turning in papers, professors grading exams, and so on).  
 

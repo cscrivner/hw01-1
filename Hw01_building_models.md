@@ -1,0 +1,236 @@
+Building Models
+===============
+
+### Theories of deviant aggressive behavior
+
+**Theory I:** Deviant aggressive behavior is learned from experience.
+Individuals in a society learn to do those things for which they receive
+rewards and to avoid those things for which they receive punishment.
+
+**Theory II:** Deviant aggressive behavior is a symbolic expression of
+hostility toward personal authority figures. When an individual is
+frustrated in his personal life, he becomes angry toward parents,
+bosses, or public officials. He will express this anger by deviant
+aggressive behavior.
+
+**Theory III:** Deviant aggressive behavior is the rational action of
+oppressed individuals. Social rules systematically discriminate among
+people. People who are most hurt by the rules are least likely to profit
+from conforming to them and thus do conform less.
+
+**Theory IV:** Deviant aggressive behavior is a social role. Individuals
+are socialized into the role through contact with a deviant subculture.
+
+### Questions
+
+#### Question 1) What social policy would be appropriate to reduce deviant aggressive behavior if Theory I were correct? Theory II? Theory III? Theory IV?
+
+**Theory I:** Assumption 1: Individuals learn to do things for which
+they receive a reward Assumption 2: Individuals learn to avoid things
+for which they receive punishment Assumption 3: Deviant aggressive
+behavior is learned Consequence: People are deviantly aggressive when
+the reward they recieve for this behavior outweighs the punishment they
+receive.
+
+If the assumptions of this theory are true, then deviant aggressive
+behavior could be reduced by simply reducing the reward gained through
+deviant aggressive behavior. From a policy standpoint, this might prove
+tricky. While individuals often police themselves in small groups, it is
+unclear how enacting a social policy that reduces reward attained from
+acting aggressively could be done. For example, if someone is aggressive
+towards me as an individual, I may choose to ignore them, which reduces
+the external reward they receive. However, it's unclear how policy could
+achieve this effect. Moreover, if an individual receives internal reward
+(e.g., a dopamine rush) from being aggressive, then no social policy
+could reduce this reward. A second, more feasible way reduce deviant
+aggressive behavior under this theory would be to increase punishment
+for this behavior such that it is greater than the internal + external
+reward attained by the aggressive individual. For example, someone
+mugging another person may induce internal reward (dopamine spike) and
+external reward (stolen money). To offset this reward, the punishment
+would need to be strict enough that the reward is overshadowed.
+Therefore, increasing the penalty for aggressive behavior is one social
+policy that could reduce deviant aggressive behavior according to this
+theory.
+
+**Theory II:** Assumption 1: Individuals become deviantly aggressive
+when they are angry Assumption 2: Individuals become angry at personal
+authority officials when they become frustrated in personal life (i.e.,
+they blame authority figures for their frustration) Consequence: People
+are deviantly aggressive when they are angry at personal authority
+figures.
+
+This theory assumes aggression is deviant because it is expressed out of
+anger toward an authority figure, even if the authority figure is not
+the actual cause of the frustration in the individual's life. This
+allows for a few points of intervention via social policy. One social
+policy initiative that might reduce deviant aggression would be to
+provide individuals with greater access to therapists (for example,
+through insurance or subsidies). With access to therapists, individuals
+may learn: 1) that not all points of frustration stem from authority; 2)
+that there are more effective ways of channeling their anger that will
+produce better outcomes; or 3) how to avoid becoming as frustrated in
+the first place. The cost of this policy might be offset by the reduced
+costs associated with decreased instances of deviant aggression.
+
+**Theory III:** Assumption 1: Some individuals are oppressed
+systematically through social rules Assumption 2: People can become
+deviantly aggressive when oppressed Assumption 3: This deviant
+aggressive behavior is the rational outcome of a cost-benefit analysis
+of conforming (being non-deviant) Consequence: People who are most
+oppressed will be most deviantly aggressive
+
+This theory assumes deviant aggressive behavior is not purely emotional
+or irrational, but instead is calculated. If the rules treat an
+individual unfairly, then the benefit of following the rules is lower,
+while the benefit of being deviantly aggressive is higher. This suggests
+that policy interventions aimed at reducing deviantly aggressive
+behavior should target 1) the most oppressed groups and/or 2) reduce the
+benefit gained from being deviantly aggressive. As with Theory I,
+increased penalization could reduce the reward/benefit of being deviant,
+such that conforming, even if unfair and low-benefit, is the more
+rational choice. Perhaps a better social policy would target Assumption
+1 - namely, reduce systemic oppression. If it is true that the most
+oppressed people are the most deviantly aggressive, then it should be
+easy to identify who the most oppressed people are. Once identified,
+they could be interviewed and asked what aspects of social rules could
+be changed to eliminate or at least lessen their oppression. Steps could
+then be taken to implement a social policy based on this. For example,
+if a lack of job opportunities is mentioned as a form of oppression,
+then special work programs could be implemented that target these
+individuals and help them find jobs.
+
+**Theory IV:** Assumption 1: People can be socialized into social roles
+Assumption 2: Deviant aggressive behavior is a social role Consequence:
+People who associate with deviant subculture become socialized into a
+deviantly aggressive role
+
+This theory really only offers one point of intervention - contact with
+deviant subculture. One possible social policy would be to try to
+eliminate or reduce the influence deviant subculture. This could be done
+through legal means (e.g., banning key aspects of deviant subculture and
+increasing attention to areas where deviant subculture is high).
+However, this might backfire and make the deviant subculture larger
+and/or more extreme. Another possible social policy could be to offer
+alternatives to deviant subculture. For example, if a research group
+studied the most common reasons that people came into contact with
+deviant subculture, then programs could be established that compete with
+those reasons. If one reason people come into contact with deviant
+subculture is lack of extracurricular activities (i.e., out of boredom),
+then social policy could be aimed at after-school programs or weekend
+programs that provide a way for people to find new hobbies and associate
+with people not associated with a deviant subculture.
+
+#### Question 2) During the past ten years, American society has been running a series of “experiments” with deviant aggressive behavior. Take any one of these experiments (e.g. \#MeToo, mass shootings, political rhetoric) and discuss what we have learned about the four theories from this series of experiments.
+
+The MeToo movement is perhaps one of the strongest social media social
+movements to occur. While there have been similar social movements, none
+of them that began and spread on social media has had quite the impact
+of MeToo. Targeting a specific type of deviant aggression, namely,
+sexual harassment and assault, MeToo has had enough social power to
+bring down some of the most powerful celebrities of our time. What was
+once spread as gossip and in whispers can now be spread to millions of
+people in a matter of minutes through social media, particularly through
+centralizing formats such as hashtags. Because of its combination of
+being powered by social networks and combatting a well-known form of
+deviant aggression, MeToo provides an excellent test of the four
+theories mentioned above.
+
+Theory I suggests that people learn to be deviantly aggressive because
+they are rewarded for this behavior. For many of the powerful people who
+have fallen to the MeToo movement, this seems true. While sexual
+harassment and assault often don't reward the aggressor by helping them
+climb ladders, it can provide "reward" internally, through feelings of
+power and dominance. Because feeling powerful makes us feel good, it
+creates a dopaminergic feedback loop, often referred to colloquially as
+the "reward circuit" of the brain. Because these deviant;y aggressive
+behaviors reward the aggressors in this way, they are more likely to
+continue this behavior, as theory I suggests. While no offocial
+statistics exist on whether or not MeToo has increased punishment enough
+to overshadow this reward and prevent the behavior from occurring, many
+men report feeling anxious or afraid around women now. Whether or not
+these feelings are merited, they do suggest that at least some men are
+now more careful about their behaviors, attempting to ensure they do not
+fall into deviantly aggressive behaviors such as sexual harassment.
+Therefore, there seems to be some merit to Theory I.
+
+It is less clear if MeToo supports Theory II or Theory III. Theory II
+assumes people will become deviantly aggressive out of anger/frustration
+with life, which is blamed on personal authority figures. In many MeToo
+cases, the accused is not in a position to be frustrated with personal
+authority figures. In other words, they are not aggressive in defiance
+of authority, but rather are often the ones in authority. Similarly, the
+accused in many MeToo cases are not oppressed, but are often accused of
+oppressing. Moreover, they are often not hurt by social rules.
+Therefore, these two theories seem less supported in the case of MeToo.
+
+While theory IV appears to be supported at first glance, it's not clear
+whether or not data from MeToo support this explanation for deviant
+aggression. On the one hand, there are some industries where MeToo seems
+to be more frequent, such as movie and television actors. However, there
+are many people in contact with those accused of sexual harassement who,
+presumably, have not committed it themselves. While it's possible that
+contact with people who commit sexual harassment and assault may be at
+increased risk of being in a situation where they would also commit this
+deviant aggressive behavior, it's not clear that this *causes* the
+deviant aggressive behavior.
+
+Taken together, the the case of MeToo seems to support Theory I to the
+greatest extent, while rejecting Theories II and I. Theory IV is neither
+rejected nor supported in this case, and is still up for debate.
+
+### Waiting until the last minute
+
+People often do things at the last minute (students turning in papers,
+professors grading exams, and so on).
+
+**a. Ask yourself why the observation might be true and write down your
+explanations.**
+
+Possible explanations for why people wait until the last minute: 1) They
+are busy 2) They overestimate their ability to complete tasks
+efficiently 3) They complete tasks they value or enjoy first 4) They
+forget about the task 5) They have trouble initiating tasks, especially
+when unmotivated
+
+**b. Generalize the explanatory model – that is, induce the most
+general, abstract model you can produce that still has the original
+observation as a consequence.**
+
+*Model 1 - Accidentally forgetting (this model assumes people are
+largely responsible, just busy)* When people become busy they prioritize
+tasks such that the tasks they are less motivated to initate are
+performed last. Over time they forget about these tasks due to a busy
+schedule, causing them to be completed at the last minute.
+
+**c. Induce an alternative model that also has the original observation
+as a consequence.**
+
+*Model 2 - Intentionally forgetting (this model assumes people are
+largely irresponsible, and being busy makes it worse)* People struggle
+to begin a task they don't enjoy, so they forget about it until closer
+to its due date. People often become busier than they think, so they are
+forced to complete other tasks first, putting the original task even
+further behind.
+
+**d. For each of the two general models produced in (b) and (c), derive
+two interesting predictions (four predictions in total). Be sure the
+logical connection between your model and your predictions is explicitly
+stated and that any assumed facts concerning the world are made
+explicit.**
+
+**Model 1** Prediction 1: Tasks people are less motivated to pursue
+first are simple, but mundane
+
+Prediction 2: Reminders about tasks lower on the prioritization list
+will decrease the chances that these tasks are completed at the last
+minute
+
+**Model 2** Prediction 1: If someone is given only one task, which they
+don't enjoy, they will still complete it at the last minute (This
+assumes they have no other work or social responsibilities during this
+time, such as a holiday where they are not expecting family or
+traveling).
+
+Prediction 2: If a task is changed so that it becomes enjoyable, people
+will not complete it at the last minute.

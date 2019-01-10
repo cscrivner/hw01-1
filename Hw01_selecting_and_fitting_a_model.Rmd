@@ -1,0 +1,17 @@
+---
+title: "Hw01_selecting_and_fitting_a_model"
+author: "Coltan Scrivner"
+date: "1/9/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+
+
+```
+
+
+```{r}
+
+
+```

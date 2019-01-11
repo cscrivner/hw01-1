@@ -3,17 +3,127 @@ title: 'Hw01: Selecting and Fitting a Model'
 author: "Coltan Scrivner"
 date: "1/9/2019"
 output:
-  md_document: default
   pdf_document: default
+  md_document: default
 ---
 
 ```{r setup, include=FALSE}
+
+library(tidyverse)
+library(broom)
+
+set.seed(1234)
+theme_set(theme_minimal())
+
 
 
 ```
 
 
-```{r}
+**Question 1: For each part, indicate whether we would generally expect the performance of a flexible statistical learning method to be better or worse than an inflexible method. Justify your answer.**
+
+**a. The sample size n is extremely large, and the number of predictors p is small.**
+
+Because we have a very large sample size, we can take advantage of splitting the data into training and test data. In this case, we might expect a flexible model such as machine learning to outperform an inflexible model. The large sample size will help prevent overfitting during training. 
+
+**b. The number of predictors p is extremely large, and the number of observations n is small.**
+
+For the same reason a flexible model would perform better in the question above, we might expect it to perform worse here. When the number of observations is small, the data cannot be split such that there is appropriate variation in the training set. In this case, the flexible model will likely overfit, so we should use a more inflexible model such as least squares. 
+
+**c. The relationship between the predictors and response is highly non-linear.**
+
+When the relationship between predictors and response is highly non-linear, it's much better to use a flexible model (especially if sample size is large). While extra noise might get modeled because of overfit, the inflexible model would be a poor predictor due to very high bias. In fact, with highly non-linear data, a non-flexible model would probably not even find the effect (type 2 error). 
+
+**d. The variance of the error terms $$\sigma^2 = Var(\epsilon)$$ is extremely high.
+
+If variance for error terms is high, then we probably want to use an inflexible model, since it will result in lower variance across samples. We don't want the flexible method to just model the error. 
 
 
+**2. Bias-variance decomposition**
+**a. Generate a graph of typical (squared) bias, variance, training error, test error, and Bayes (irreducible) error curves, on a single plot, as we go from less flexible statistical learning methods towards more flexible approaches. The x-axis should represent the amount of flexibility in the method, and the y-axis should represent the values for each curve. There should be five curves. Make sure to label each one.**
+
+
+
+```{r 2}
+
+# simulate data from ISL figure 2.9
+sim_mse <- tibble(
+  x = runif(n = 50, min = 0, max = 100),
+  y = 5.055901 - 0.1848551*x + 0.00748706*x^2 - 0.00005543478*x^3 + rnorm(50, sd = 0.6)
+)
+
+# model fit
+ggplot(sim_mse, aes(x, y)) +
+  geom_point() +
+  stat_function(fun = function(x) 5.055901 - 0.1848551*x + 0.00748706*x^2 - 0.00005543478*x^3) +
+  geom_smooth(aes(color = "lm"), method = lm, se = FALSE) +
+  geom_smooth(aes(color = "spline-low"), method = lm,
+              formula = y ~ splines::ns(x, 5), se = FALSE) +
+  geom_smooth(aes(color = "spline-high"), method = lm,
+              formula = y ~ splines::ns(x, 20), se = FALSE) +
+  scale_color_brewer(type = "qual") +
+  labs(title = "Training data points",
+       subtitle = "Models estimated on training set",
+       x = expression(X),
+       y = expression(Y)) +
+  theme(legend.position = "none")
+
+
+
+
+
+
+sim_mse_test <- tibble(
+  x = runif(n = 50, min = 0, max = 100),
+  y = 5.055901 - 0.1848551 * x + 0.00748706 * x^2 - 0.00005543478 * x^3 + rnorm(50, sd = 0.6)
+)
+
+# model fit
+ggplot(sim_mse, aes(x, y)) +
+  geom_point(data = sim_mse_test) +
+  stat_function(fun = function(x) 5.055901 - 0.1848551*x + 0.00748706*x^2 - 0.00005543478*x^3) +
+  geom_smooth(aes(color = "lm"), method = lm, se = FALSE) +
+  geom_smooth(aes(color = "spline-low"), method = lm,
+              formula = y ~ splines::ns(x, 5), se = FALSE) +
+  geom_smooth(aes(color = "spline-high"), method = lm,
+              formula = y ~ splines::ns(x, 20), se = FALSE) +
+  scale_color_brewer(type = "qual") +
+  labs(title = "Test data points",
+       subtitle = "Models estimated on training set",
+       x = expression(X),
+       y = expression(Y)) +
+  theme(legend.position = "none")
+
+
+
+
+
+
+
+
+sim_mse_test <- tibble(
+  x = runif(n = 1e04, min = 0, max = 100),
+  y = 5.055901 - 0.1848551*x + 0.00748706*x^2 - 0.00005543478*x^3 + rnorm(1e04, sd = 0.5)
+)
+
+# train vs. test MSE
+train_test_mse <- tibble(df = 2:30) %>%
+  mutate(model = map(df, ~ lm(y ~ splines::ns(x, .x), data = sim_mse)),
+         pred = map(model, augment),
+         mse_train = map_dbl(pred, ~ mean(.$.resid^2)),
+         pred_test = map(model, augment, newdata = sim_mse_test),
+         mse_test = map_dbl(pred_test, ~ mean((.$y - .$.fitted)^2))) %>%
+  gather(mse, value, mse_train, mse_test) %>%
+  mutate(mse = str_remove(mse, "mse_"),
+         mse = str_to_title(mse))
+
+train_test_mse %>%
+  ggplot(aes(df, value, color = mse)) +
+  geom_smooth(se = FALSE) +
+  scale_color_brewer(type = "qual") +
+  scale_x_log10() +
+  labs(x = "Flexibility",
+       y = "Mean squared error",
+       color = NULL) +
+  theme(legend.position = "bottom")
 ```
